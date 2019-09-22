@@ -1,0 +1,22 @@
+{
+  "name": "eno",
+  "version": "1.0.0",
+  "description": "A nano tribute to Brian Eno from 2049",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html --public-url ./",
+    "deploy": "gh-pages -d dist"
+  },
+  "author": "Moisés Cachay <hello@moises.dev>",
+  "license": "MIT",
+  "dependencies": {
+    "tone": "^13.8.25"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.6.0",
+    "@babel/preset-env": "^7.6.0",
+    "cssnano": "^4.1.10",
+    "gh-pages": "^2.1.1"
+  }
+}
