@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  border: 0;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background-color: black;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2em;
+}
+
+h1 {
+  font-size: 10rem;
+  font-weight: 100;
+  color: white;
+}
+
+img {
+  height: 8rem;
+}
+
+div {
+  width: 25%;
+  height: 3em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+input,
+button {
+  width: 100%;
+  height: 100%;
+  font-size: 1.5em;
+}
+
+/*# sourceMappingURL=index.f8b8aef8.css.map */
